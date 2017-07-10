@@ -21,8 +21,6 @@ maxNumber = prompt("Enter a whole number (no decimals allowed):", 20);
 maxNumber = parseInt(maxNumber);
   if (Number.isSafeInteger(maxNumber) && maxNumber > 0) {
     isInteger = true;
-  } else {
-    alert("You must enter a whole number greater than zero, with no decimals.");
   }
 }
 
